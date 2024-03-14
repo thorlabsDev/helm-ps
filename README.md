@@ -1,6 +1,7 @@
 # Solana RPC Benchmark Tool
 
 This GoLang-built tool is designed to transmit multiple RPC transactions to a specified Solana RPC endpoint. Its core purpose is to assess the transaction throughput, enabling users to determine the maximum Transactions Per Second (TPS) that an RPC can handle.
+<img width="1112" alt="image" src="https://github.com/thorlabsDev/rps-manager/assets/48356842/e3abcd84-1515-42ca-b6a6-3606751b2d38">
 
 ## Download
 -   [Get the latest version of the tool](https://github.com/thorlabsDev/rpc-bencmark/releases)
