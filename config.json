@@ -1,7 +1,8 @@
 {
-            "rpcEndpoint": "http://rpc-us-east-2.thornode.io/",
-            "concurrentRequests": 5,
-            "testDurationSeconds": 5,
-            "showRPCOutput": false,
-            "transactionDelayMilliseconds": 100
-        }
+  "url": "http://rpc-eu-west-2-zesty.thornode.io/",
+  "port": 8080,
+  "debugMode": false,
+  "seconds": 10,
+  "rateLimitEnabled": true,
+  "maxRPS": 50
+}
