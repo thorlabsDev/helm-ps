@@ -4,5 +4,6 @@
   "debugMode": false,
   "seconds": 10,
   "rateLimitEnabled": true,
-  "maxRPS": 50
+  "maxRPS": 50,
+  "maxTPS": 20
 }
