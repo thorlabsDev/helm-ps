@@ -48,7 +48,7 @@ Here are the configurable parameters:
 ## Running the Server
 To start the proxy server, prepare your config file and run the executable.
 
-Once started, the server will log its activity. You can make HTTP requests to http://localhost:<port> where <port> is the port number specified in your `config.json`. In your Solana bot config, replace RPC URL with the proxy server URL.
+Once started, the server will log its activity. You can make HTTP requests to http://localhost:`port` where `port` is the port number specified in your `config.json`. In your Solana bot config, replace RPC URL with the proxy server URL.
 
 ## Rate Limiting
 Control and limit the incoming request rate to your proxy server with the configurable rate limiting feature.
