@@ -72,7 +72,7 @@ The HELM-PS supports three request distribution strategies:
 * `all` (Failover): Sends the same request concurrently to all configured endpoints. It waits for responses and uses the first successful one, providing redundancy in case one or more endpoints fail.  This is not load balancing in the traditional sense, but it enhances reliability.
 * `normal` (Round Robin): Distributes requests sequentially across all endpoints in a cyclical manner. Each endpoint gets a turn to process a request, ensuring even distribution regardless of individual endpoint capacity.
 * `weighted` (Weighted Round Robin): Distributes requests across endpoints based on their configured maxRPS values. Endpoints with higher maxRPS receive a proportionally larger share of requests, allowing you to direct traffic according to endpoint performance or capacity.
-
+![img_1.png](img2.png)
 ### Key Considerations
 
 * `all`: Ideal for prioritizing reliability. It ensures a response is received even if some endpoints are down, but it can be the most resource-intensive strategy since it sends the same request to all endpoints concurrently.
