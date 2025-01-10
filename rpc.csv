@@ -1,0 +1,7 @@
+methodGroup,alias,url,maxRate
+sendTransaction,tx-primary,http://rpc-us-east-2.thornode.io,50
+sendTransaction,tx-secondary, http://rpc-va-zesty.thornode.io,50
+heavyRPC,heavy-1,http://rpc-de.thornode.io,10
+heavyRPC,heavy-2,http://rpc-va-zesty.thornode.io/,10
+other,general-1,http://rpc-eu-west-2-zesty.thornode.io,100
+other,general-1,http://rpc-eu-west-2-zesty.thornode.io,100

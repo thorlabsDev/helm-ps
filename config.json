@@ -1,20 +1,11 @@
 {
   "port": 8080,
-  "debugMode": false,
-  "seconds": 10,
-  "rateLimitEnabled":true,
-  "loadbalance":"all",
-  "endpoints": [
-    {
-      "url": "http://rpc-us-east-2.thornode.io/",
-      "maxRPS":200,
-      "maxTPS": 500
-    },
-    {
-      "url": "http://rpc-us-west-2.thornode.io/",
-      "maxRPS": 200,
-      "maxTPS": 50
-    }
-
-  ]
+  "debugMode": true,
+  "seconds": 60,
+  "rateLimitEnabled": true,
+  "loadBalancing": {
+    "sendTransaction": "all",
+    "heavyRPC": "normal",
+    "other": "weighted"
+  }
 }

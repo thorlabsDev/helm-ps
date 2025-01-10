@@ -6,3 +6,4 @@ dist/
 .goreleaser.yaml
 *.doc
 run.bat
+/helmps-source/
